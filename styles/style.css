@@ -47,8 +47,8 @@
 .rec {
   display: grid;
   position: absolute;
-  inset-block-start: 10px;
-  inset-inline-end: 20px;
+  inset-block-start: 11px;
+  inset-inline-end: 38px;
   font-weight: 400;
   font-family: var(--main-font);
   color: var(--accent-color);
@@ -57,6 +57,7 @@
 }
 
 .rec::after {
+  position: absolute;
   content: "";
   width: 9px;
   height: 9px;
@@ -64,8 +65,8 @@
   background-color: var(--accent-color);
   box-shadow: 0 0 4px 2px var(--accent-color);
   display: block;
-  margin-inline-start: 43px;
-  margin-block-start: -17px;
+  margin-inline-start: 42px;
+  margin-block-start: 7px;
 }
 
 .header__theme-menu {
@@ -229,7 +230,7 @@
 
   .rec {
     inset-block-start: 21px;
-    inset-inline-end: 28px;
+    inset-inline-end: 48px;
   }
 
   .decorated-zone::after {
@@ -298,8 +299,8 @@
 
 @media (min-width: 1024px) {
   .header__theme-menu {
-    display: flex;
-    flex-direction: row;
+    /* display: flex; */
+    /* flex-direction: row; */
     align-self: start;
     margin: 0 auto;
   }
