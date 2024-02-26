@@ -58,6 +58,8 @@
 
 .rec::after {
   position: absolute;
+  top: 7px;
+  left: 42px;
   content: "";
   width: 9px;
   height: 9px;
@@ -65,8 +67,8 @@
   background-color: var(--accent-color);
   box-shadow: 0 0 4px 2px var(--accent-color);
   display: block;
-  margin-inline-start: 42px;
-  margin-block-start: 7px;
+  /* margin-inline-start: 42px;
+  margin-block-start: 7px; */
 }
 
 .header__theme-menu {
